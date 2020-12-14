@@ -1,0 +1,92 @@
+body{
+    background: white;
+    color:white;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+button{
+    align-self: center;
+    background-color: transparent;
+    border: 5px solid #6d9eeb;
+    color: #6d9eeb;
+    border-radius: 30px;
+}
+input{
+    border: 5px solid#6d9eeb;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    color: #6d9eeb;
+    
+}
+.Menu{
+    text-align: right;
+}
+svg{
+    background: none;
+}
+.display h2{
+    color:#6d9eeb;
+}
+
+div{
+    background: white;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px 0px;
+}
+.display{
+    
+    margin: auto;
+    width: 50%;
+    border-bottom: 5px dotted  #6d9eeb;
+    border-width: 50%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+#answer{
+    font-size: medium;
+    background-color:transparent;
+    border-radius: 30px;
+    border-color: #6d9eeb;
+    color: #6d9eeb;
+}
+a{
+    text-decoration: dotted;
+    color:  #ff9900;
+    font-size: large;
+}
+img{
+    background-color: transparent;
+    border-radius: 30px;
+    height: 150px;
+    width: 50%;
+}
+
+.blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: auto; 
+    grid-auto-rows: auto;
+    width: 50%;
+    margin: auto;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+h1{ 
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+p{
+    font-size: 20px;
+}
