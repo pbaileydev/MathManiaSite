@@ -14,12 +14,12 @@ body{
 button{
     align-self: center;
     background-color: transparent;
-    border: 5px solid #6d9eeb;
+    border: 2px solid #6d9eeb;
     color: #6d9eeb;
     border-radius: 30px;
 }
 input{
-    border: 5px solid#6d9eeb;
+    border: 2px solid#6d9eeb;
     background-color: transparent;
     font-weight: bold;
     border-radius: 30px;
@@ -34,6 +34,7 @@ svg{
 }
 .display h2{
     color:#6d9eeb;
+    font-weight: lighter;
 }
 
 div{
@@ -43,11 +44,11 @@ div{
     margin: 2px 0px;
 }
 .display{
-    
+    background:transparent;
     margin: auto;
-    width: 50%;
-    border-bottom: 5px dotted  #6d9eeb;
-    border-width: 50%;
+    width: 100%;
+    border-bottom: 1px solid  #6d9eeb;
+    border-width: 100%;
     margin-bottom: 10px;
     padding-bottom: 20px;
 }
@@ -63,6 +64,7 @@ a{
     color:  #ff9900;
     font-size: large;
 }
+
 img{
     background-color: transparent;
     border-radius: 30px;
