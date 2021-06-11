@@ -20,16 +20,6 @@ function submitAnswer(){
     else
     alert("Incorrect");
 }
-/*setInterval(()=>{
-if(x > 2){
-    x = 0;
-}
- imgArea.src =  array[x];
- x++;
-},2000);
-//setTimeout(()=>{alert("Hello"),5000})
-*/
-
 additionArea.style.backgroundColor = "lightcoral";
 subtractionArea.style.backgroundColor = "cornflowerblue";
 multiplicationArea.style.backgroundColor = "lightgreen";
@@ -55,7 +45,7 @@ multiplicationArea.addEventListener('click',  (e)=>{
 divisionArea.addEventListener('click',  (e)=>{
     num1 = Math.floor(Math.random() * (10 - 1) + 1); 
     num2 = Math.floor(Math.random() * (10 - 1) + 1);
-    correctAnswer = num1 - num2;
+    correctAnswer = num1 / num2;
     question.innerText = `${num1} / ${num2}`;
 });
 additionArea.addEventListener('mouseenter',(e)=>
