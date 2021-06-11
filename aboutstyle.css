@@ -11,28 +11,20 @@
 h1{
     margin: auto
 }
-ul{
-    border: 5px solid#ff9900 ;
-    color: #ff9900;
-    border-radius: 100px;
-    justify-content: center;
-    text-decoration: none;
-    list-style: none;
-    list-style-type: none;
-}
+
 h3{
     font-weight: lighter;
 }
 svg{
     background: none;
 }
-img{
+#screenshots img{
     margin: auto;
     justify-content: center;
     text-align: center;
     align-self: center;
     background-color: transparent;
-    border-radius: 30px;
-    height: 150px;
+    border-bottom: dashed;
+    height: 500px;
     width: 50%;
 }
