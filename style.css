@@ -5,10 +5,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
+    
     display: flexbox;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
+    
     text-align: center;
 }
 button{
@@ -44,7 +43,7 @@ div{
     margin: 2px 0px;
 }
 .display{
-    background:transparent;
+    
     margin: auto;
     width: 100%;
     border-bottom: 1px solid  #6d9eeb;
