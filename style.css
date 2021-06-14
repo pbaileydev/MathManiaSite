@@ -55,7 +55,7 @@ div{
     border-top: none;
 }
 .display{
-    background: url(MathManiaSite/Line.svg);
+    background: url(/MathManiaSite/Line.svg);
     background-size: 50px;
     background-color: white;
     margin: auto;
