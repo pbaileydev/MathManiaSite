@@ -8,41 +8,61 @@
 <body>
     
     <div class="container">
-        <a href="/MathManiaSite/about.html" style="text-align: right;">Screenshots</a>
     <section class = "display">
-        
-        <img src="/MathManiaSite/Mathmania+ appicon.svg">
-        
         <br>
-        <a href="https://github.com/pbaileydev/MathMania" style="border: 1px solid; border-radius: 30px; padding: 5px;">View GitHub Repo</a>
+        <img src="/MathManiaSite/Mathmania+ appicon.svg">
+        <br>
+        <img src="/MathManiaSite/MathManiaLogo.jpg"style="width: 150px; height: 150px;">
+        <br>
+        <br>
+        <a href="https://github.com/pbaileydev/MathMania" style=" border: 2px solid #6d9eeb; border-radius: 5px; padding: 10px;
+        background-color: transparent; color: #6d9eeb;">View GitHub Repo</a><br><br><br>
+        <a href="/MathManiaSite/about.html" style=" border: 2px solid orange; border-radius: 5px; padding: 10px;
+        background-color: transparent; color: orange;">Screenshots</a><br>
+        
+    </section>
+    <div class="bottom">
         <form>
             <label></label>
-            <h2>Questions will appear here</h2>
+            <h2 style="color: #6d9eeb; font-weight: lighter;">Select a block for problems</h2>
+            <br>
             <input type="number"><br><br>
-            <input id = "answer" type="submit" value="Submit" onclick="submitAnswer()">
+            <input id = "answer" type="submit" value="Submit" onclick="submitAnswer()"
+            style=" border: 2px solid #6d9eeb; border-radius: 5px; padding: 10px;
+        background-color: transparent; color: #6d9eeb;">
         </form>
-    </section>
-    
+        <br>
     <section class = "blocks">
     
         <div id = "Addition" class="area">
-            <p><h2>+</h2><h1>Addition</h1></p>
+            <br>
+            <p><h2>+</h2><br>
+                <h1>Addition</h1><br></p>
+                
             <p>Get ready to add some fun to your routine in this mode!</p>
+            <br>
+
         </div>
-        <div id = "Subtraction" class = "area">
-            <p><h2>-</h2><h1>Subtraction</h1></p>
-            <p>Subtract boredom from the day in this fun mode!</p>    
+        <div id = "Subtraction" class = "area"><br>
+            <p><h2>-</h2><br><h1>Subtraction</h1></p><br>
+            <p>Subtract boredom from the day in this fun mode!</p><br>  
         </div>
-        <div id = "Multiplication" class="area">
-            <p><h2>x</h2><h1>Multiplication</h1></p>
-            <p>You times math equals awesome!</p>   
+        <div id = "Multiplication" class="area"><br>
+            <p><h2>x</h2><br><h1>Multiplication</h1></p>
+            <br>
+            <p>You times math equals awesome!</p>  
+            <br> 
         </div>
         <div id = "Division" class="area">
-            <p><h2>/</h2><h1>Division</h1></p>
-            <p>Time to divide and conquer!</p>    
+            <br>
+            <p><h2>/</h2><br><h1>Division</h1></p>
+            <br>
+            <p>Time to divide and conquer!</p>
+            <br>    
         </div>
     
     </section>
+    </div>
 </div>
     <script type="text/javascript" src="index.js"></script>
 </script>
