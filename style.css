@@ -7,11 +7,16 @@ body{
     color:white;
     flex-direction: row;
 }
+nav{
+    align-content: center;
+}
 nav a{
     margin:10px;
 }
 .container{
     overflow: hidden;
+    background: url(/MathManiaSite/Line.svg), url(/MathManiaSite/Red\ Vertical\ Line.svg) repeat-y;
+    background-size: 50px;
     background-color: white;
     border: solid 1px transparent;
     border-radius: 14px;
@@ -51,17 +56,13 @@ div{
     margin: 2px 0px;
 }
 .bottom{
-    background: white;
+    background: transparent;
     border-top: none;
 }
 .display{
-    background: url(/MathManiaSite/Line.svg);
-    background-size: 50px;
-    background-color: white;
+    
     margin: auto;
     width: 100%;
-    border-bottom: 1px solid  #6d9eeb;
-    border-width: 100%;
     margin-bottom: 10px;
     padding-bottom: 20px;
 }
