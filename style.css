@@ -9,6 +9,7 @@ body{
 }
 nav{
     align-content: center;
+    margin-bottom: 27px;
 }
 nav a{
     margin:10px;
@@ -120,6 +121,9 @@ p{
         grid-auto-rows: auto;
         width: 70%;
         margin: auto;
+    }
+    nav{
+        margin-bottom: 17px;
     }
     .display img{
         width: 240px;
