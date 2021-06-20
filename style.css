@@ -9,14 +9,15 @@ body{
 }
 nav{
     align-content: center;
-    margin-bottom: 27px;
+    margin-bottom: 10px;
 }
 nav a{
     margin:10px;
 }
+
 .container{
     overflow: hidden;
-    background: url(/MathManiaSite/Line.svg), url(/MathManiaSite/Red\ Vertical\ Line.svg) repeat-y;
+    background: url(Line.svg), url(Red\ Vertical\ Line.svg) repeat-y;
     background-size: 50px;
     background-color: white;
     border: solid 1px transparent;
@@ -72,7 +73,7 @@ div{
     background-color:transparent;
     border-radius: 30px;
     border-color: #6d9eeb;
-    color: #6d9eeb;
+    color: #3a3d41;
 }
 a{
     text-decoration: none;
@@ -81,10 +82,22 @@ a{
 }
 
 img{
+    transition:width 2s;
     background-color: transparent;
     border-radius: 30px;
     height: 150px;
     width: 50%;
+}
+@keyframes shake {
+    25%{transform:rotate(5deg);}
+    50%{transform:rotate(0deg);}
+    75%{transform:rotate(5deg)}
+    100%{transform:rotate(0deg)}
+}
+.blocks div:hover{
+    animation-name: shake;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
 }
 
 .blocks{
@@ -113,6 +126,7 @@ p{
     .container{
         font-size: larger;
     }
+   
     .blocks{
         display: grid;
         grid-template-columns: 1fr;
@@ -122,10 +136,5 @@ p{
         width: 70%;
         margin: auto;
     }
-    nav{
-        margin-bottom: 17px;
-    }
-    .display img{
-        width: 240px;
-    }
+    
 }
