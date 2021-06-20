@@ -53,7 +53,7 @@ additionArea.addEventListener('mouseenter',(e)=>
     e.preventDefault();
     additionArea.style.color = "lightcoral";
     additionArea.querySelector("h1").style.color = "lightcoral";
-    additionArea.style.backgroundColor = "white";
+    additionArea.style.backgroundColor = "transparent";
 });
 additionArea.addEventListener('mouseleave',(e)=>
 {
@@ -64,7 +64,7 @@ additionArea.addEventListener('mouseleave',(e)=>
 })
 subtractionArea.addEventListener('mouseenter',()=>
 {
-    subtractionArea.style.backgroundColor = "white"; 
+    subtractionArea.style.backgroundColor = "transparent"; 
     subtractionArea.querySelector("h1").style.color = "cornflowerblue";
     subtractionArea.style.color = "cornflowerblue";
 });
@@ -76,7 +76,7 @@ subtractionArea.addEventListener('mouseleave',()=>{
 });
 multiplicationArea.addEventListener('mouseenter',()=>
 {
-    multiplicationArea.style.backgroundColor = "white";
+    multiplicationArea.style.backgroundColor = "transparent";
     multiplicationArea.querySelector("h1").style.color = "lightgreen";
 
     multiplicationArea.style.color = "lightgreen";
@@ -92,7 +92,7 @@ divisionArea.addEventListener('mouseenter',()=>
 {
     divisionArea.style.color = "lightsalmon";
     divisionArea.querySelector("h1").style.color = "lightsalmon";
-    divisionArea.style.backgroundColor = "white";
+    divisionArea.style.backgroundColor = "transparent";
     
 });
 divisionArea.addEventListener('mouseleave',()=>{
