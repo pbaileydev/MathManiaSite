@@ -68,4 +68,8 @@ svg{
         width:50%;
         margin-bottom: 27px;
     }
+   .about_container{
+        font-size: larger;
+        width:70%;
+    }
 }
