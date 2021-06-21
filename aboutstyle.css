@@ -2,6 +2,12 @@
     margin:0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@keyframes shake {
+    25%{transform:rotate(5deg);}
+    50%{transform:rotate(0deg);}
+    75%{transform:rotate(5deg)}
+    100%{transform:rotate(0deg)}
+}
 body{
 
     background: orange;
@@ -67,6 +73,11 @@ svg{
     background-color: transparent;
     height: 400px;
     width: 240px;
+}
+#screenshots img:hover{
+    animation-name: shake;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
 }
 @media only screen and (max-width: 550px) {
     .about_container{
