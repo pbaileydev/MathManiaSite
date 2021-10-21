@@ -1,0 +1,38 @@
+.about_container{
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+h1{
+    margin: auto
+}
+ul{
+    border: 5px solid#ff9900 ;
+    color: #ff9900;
+    border-radius: 100px;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+h3{
+    font-weight: lighter;
+}
+svg{
+    background: none;
+}
+img{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 150px;
+    width: 50%;
+}
